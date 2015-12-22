@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+number = 3
+guess = int(input('Enter an integer : '))
+if guess == number :
+    print('Congratulations, you guessed it.')# New block start here
+    print("(but you do not win any prizes!)")# New block ends here
+elif guess > number:
+    print('No, it is little higher than that')# Anather block
+    # You can do whatever you want in a block ...
+else:
+    print('No, it is a little lower than that')
+    # you must hav guess > number to reach here
+print('Done')
